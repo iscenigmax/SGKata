@@ -2,7 +2,7 @@ import csv, operator
 
 dic = {}
 
-with open('C:\\Users\\VOSTRO1520\\Desktop\\football.csv', 'r') as csvfile:
+with open('football.csv', 'r') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
     next(spamreader, None)  
     for row in spamreader:
